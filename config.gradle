@@ -17,16 +17,16 @@ ext {
     ]
 
     android = [
-            minSdkVersion             : 12,
-            targetSdkVersion          : 23,
-            compileSdkVersion         : 23,
-            buildToolsVersion         : "25.0.0",
+            minSdkVersion             : 14,
+            targetSdkVersion          : 27,
+            compileSdkVersion         : 27,
+            buildToolsVersion         : "29.0.2",
             sourceCompatibilityVersion: JavaVersion.VERSION_1_7,
             targetCompatibilityVersion: JavaVersion.VERSION_1_7
     ]
 
     dependencies = [
-            appcompatV7: 'com.android.support:appcompat-v7:23.3.0',
+            appcompatV7: 'com.android.support:appcompat-v7:27.+',
             design     : 'com.android.support:design:24.0.0'
     ]
 

@@ -1,14 +1,6 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 
-publish {
-    userOrg = rootProject.ext.vercode.userOrg
-    groupId = rootProject.ext.vercode.groupId
-    artifactId = rootProject.ext.vercode.artifactId
-    publishVersion = rootProject.ext.vercode.publishVersion
-    desc = rootProject.ext.vercode.desc
-    website = rootProject.ext.vercode.website
-}
+group='com.github.EthanCo'
 
 android {
 
